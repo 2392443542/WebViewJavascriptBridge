@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
   
   s.frameworks       = 'WebKit'
   s.ios.frameworks   = 'UIKit', 'WebKit'
+   s.static_framework      = true
 end
